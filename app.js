@@ -1,4 +1,7 @@
 window.addEventListener("DOMContentLoaded", ()=>{
+    console.log(hi);
+
+    const createCountryList = (countries) => {
     const image = document.querySelector("img");
     const button = document.querySelector("button");
     
@@ -11,7 +14,7 @@ window.addEventListener("DOMContentLoaded", ()=>{
             console.log(jsonData);
             image.src = jsonData.url;
         })
-    }
+    }}
 
 
 })
